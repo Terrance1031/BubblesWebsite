@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+         #title{
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1; 
+            font-size: 50px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 1, 0.5);
+        }
+        p{
+            font-size: 20px;
+            margin-top: 30px;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            z-index: 1;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+}
+    </style>
+    <title id="tabtitle"> Bubbly </title>
+    <meta charset="utf-8" />
+
+    </head>    
+    <body>
+        <main>
+            <p id="random"> Bubble Blower!!!</p>
+                <a href="https://andieandmike.org/bubblecam/"> Bubbles </a>
+            <h1 id="title"> Bubbles! </h1>
+            <button id="blow"> Blow! </button>
+        </main>
+        <script src="sketch.js"></script>
+    </body>
+</html>
