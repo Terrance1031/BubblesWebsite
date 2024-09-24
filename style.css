@@ -10,13 +10,14 @@ html, body {
 #blow {
     margin-top: 15px;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 canvas{
     display: block;
 }
+
 
 
 a:link{
